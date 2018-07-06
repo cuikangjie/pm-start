@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js publish
+
+PATH: 
+  D:\dv\bin;D:\dv\vendor\conemu-maximus5\ConEmu\Scripts;D:\dv\vendor\conemu-maximus5;D:\dv\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;D:\MyConfiguration\ckj47848\AppData\Local\Yarn\bin;C:\salt;C:\Program Files\nodejs\;C:\Python27\;C:\Program Files\MySQL\MySQL Enterprise Backup 8.0\\bin;D:\dv\;C:\Program Files (x86)\WinRAR\;D:\MyConfiguration\ckj47848\AppData\Local\Programs\Fiddler;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Microsoft VS Code\bin;D:\MyConfiguration\ckj47848\AppData\Local\atom\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;D:\dv\
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "kin-pm2-start",
+    "version": "1.0.0",
+    "description": "pm2 START",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cuikangjie/pm-start.git"
+    },
+    "keywords": [
+      "pm2",
+      "start"
+    ],
+    "author": "cuikangjie_90h@126.com",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/cuikangjie/pm-start/issues"
+    },
+    "homepage": "https://github.com/cuikangjie/pm-start#readme",
+    "dependencies": {
+      "pm2": "^2.6.1"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: D:\kin\pm-start\package.json: Unexpected token } in JSON at position 569
+      at JSON.parse (<anonymous>)
+      at C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:92:30)
+      at C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:103:13
+      at <anonymous>

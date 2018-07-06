@@ -1,0 +1,26 @@
+{
+  "name": "kin-pm2-start",
+  "version": "1.0.0",
+  "description": "pm2 START",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuikangjie/pm-start.git"
+  },
+  "keywords": [
+    "pm2",
+    "start"
+  ],
+  "author": "cuikangjie_90h@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuikangjie/pm-start/issues"
+  },
+  "homepage": "https://github.com/cuikangjie/pm-start#readme",
+  "dependencies": {
+    "pm2": "^2.6.1"
+  }
+}
